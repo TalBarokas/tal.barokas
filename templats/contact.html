@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>contact</title>
+    <link rel="Stylesheet" href="HW2 StyleSheet.css">
+
+</head>
+<body>
+    
+    <div class="grid-container">
+        <div class="item1">
+            <h1 style="color: aquamarine;font: 40px;background-color: blanchedalmond;margin: 20px">Hello Namma</h1>
+            <h2>Hope you will like the contact page</h2>
+            <hr>
+            <header>
+                <h3 style="color:pink;">shared</h3>
+            </header>
+        </div>
+        <div class="item2">
+            <form>
+                <label for="Fullname">Full name</label>
+                <input type="text" id="Fullname" name="Fullname">
+                <br>
+            
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Order</label><br>
+            
+                <label for="email">email</label>
+                <input type="email" id="email" name="email">
+            
+                <br>
+                <label for="comment">your comment</label><br>
+                <textarea name="comment" id="comment" cols="50" rows="7"></textarea><br>
+            
+                <label for="submit">submit</label>
+                <input type="submit" value="submit">
+                <br>   
+            </form>
+        </div>
+        <div class="item3">
+            <P>this is my second html page for the first time</P>
+    
+            <img src="C:\Users\laptop\Documents\Tal.barokas\static\dog2.jpg" alt="dog pic 2"><br>
+            
+            <a href="C:\Users\laptop\Documents\Tal-barokas\templates\homepage.html" style="color:purple; font: 40px;background-color: blanchedalmond;display: block;padding: 20p;border: darkgray;margin: 20px;"> homepage Page</a>
+        </div>
+    </div>
+    <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+      <p id="P1">p1</p>
+      <script>document.getElementById(P1).innerHTML="hello";
+    </script>
+     <p id="P2">p2</p>
+     <script>
+         function MyFun1(a,b){
+             return a*b;
+             
+         }
+         document.getElementById("P2").innerHTML=MyFun1(4,5);
+   </script>
+   <p id="P3">random text</p>
+   <button type="button"; onclick="document.getElementById('P3').innerHTML='change text'">change text</button>
+
+    
+    
+    
+    
+    
+    
+</body>
+</html>
